@@ -1,0 +1,139 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey! Welcome to our car dealership.",
+        "Hello! How can we assist you today?",
+        "Hi there! How may I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later! Have a great day.",
+        "Goodbye! Don't hesitate to visit us again.",
+        "Bye! Take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["You're welcome!", "Glad to help!", "My pleasure!"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What types of cars do you sell?",
+        "Do you have new cars?"
+      ],
+      "responses": [
+        "We offer a wide range of cars, including new and used vehicles.",
+        "Our inventory includes both new and pre-owned cars from various brands."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Can I pay with credit card?",
+        "Do you accept financing?"
+      ],
+      "responses": [
+        "We accept credit card payments and offer financing options for your convenience.",
+        "You can pay with credit card or explore our financing solutions."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+       
+        "When will I receive my car?"
+      ],
+      "responses": [
+        "Once purchased, you can expect delivery within 2-7 business days, depending on your location.",
+        "The delivery time for purchased cars typically ranges from 2-7 business days, based on your location."
+      ]
+    },
+    {
+      "tag": "brand",
+      "patterns": [
+        "Do you have branded cars?",
+        "Which type of brands are available?"
+      ],
+      "responses": [
+        "Yes, we have Toyota,Ford,Porce,Honda cars in our inventory.",
+        "You can find a variety of Toyota,Ford,Porce,Honda vehicles in our showroom.",
+        "Our inventory includes popular brands like Toyota,Ford,Porce,Honda."
+      ]
+    },
+    {
+      "tag": "features",
+      "patterns": [
+        "What features do your cars have?",
+        "Can you tell me about the features of your cars?"
+      ],
+      "responses": [
+        "Our cars come with various features, including advanced safety technologies, infotainment systems, and more."
+      ]
+    },
+    {
+      "tag": "maintenance",
+      "patterns": [
+        "Do you offer maintenance services?",
+        "Can I get maintenance done at your dealership?",
+        "What about car servicing?"
+      ],
+      "responses": [
+        "Yes, we provide maintenance services for your convenience.",
+        "You can schedule car servicing appointments with us.",
+        "Our dealership offers comprehensive maintenance solutions for your vehicle."
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "How can I schedule a test drive?",
+        "Can I book a test drive online?",
+        "What's the process for scheduling a test drive?"
+      ],
+      "responses": [
+        "You can easily schedule a test drive by contacting us through phone or email.",
+        "Feel free to book a test drive online or visit our dealership to arrange one.",
+        "To schedule a test drive, simply reach out to us and we'll assist you with the process."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "Do you offer car insurance?",
+        "Can I get insurance for my new car?",
+        "What insurance options do you have?"
+      ],
+      "responses": [
+        "Yes, we can help you with car insurance for your new vehicle.",
+        "Explore our insurance options for your car to ensure comprehensive coverage.",
+        "We offer various insurance plans tailored to your car's needs."
+      ]
+    },
+    {
+      "tag": "trade-in",
+      "patterns": [
+        "Do you accept trade-in vehicles?",
+        "Can I trade in my current car?",
+        "What's the trade-in process?"
+      ],
+      "responses": [
+        "Yes, we accept trade-in vehicles. Contact us for an evaluation of your current car's value."
+      ]
+    }
+  ]
+}
